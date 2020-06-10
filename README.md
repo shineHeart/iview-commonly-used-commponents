@@ -12,20 +12,15 @@
 npm install -g @vue/cli
 ```
 
-## Project setup
+## git基操
 ```
-git checkout develop //切换到开发分支
-npm install //安装第三方包 (第一次创建项目\有更新的话需要执行此命令)
-git flow init //初始化git flow (只有第一次创建项目需要执行此命令)
-git add . //添加到暂存区域
-git commit -m '提交文件的描述信息' //添加描述
-git checkout develop  //切换到开发分支
-git pull //拉取最新dev代码
-```
-
-### develop合并到我本地的分支
-```
-git merge develop
+git checkout develop （切换到开发分支）
+npm install  安装第三方包 (第一次创建项目\有更新的话需要执行此命令)
+git  init  初始化 (只有第一次创建项目需要执行此命令)
+git add . （添加到暂存区域）
+git commit -m （'提交文件的描述信息'  添加描述）
+git checkout develop  （切换到开发分支）
+git pull （拉取最新dev代码）
 ```
 
 
@@ -33,17 +28,10 @@ git merge develop
 ```
 npm run serve
 ```
-
-
-### Compiles and minifies for production （编译发布）
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+### 图片预览
+![图片上传组件](src/assets/2.png)
+![图片裁剪](src/assets/1.png)
+![sql高亮编辑](src/assets/3.png)
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
