@@ -29,9 +29,12 @@ git pull （拉取最新dev代码）
 npm run serve
 ```
 ### 图片预览
-![图片上传组件](src/assets/2.png)
-![图片裁剪](src/assets/1.png)
-![sql高亮编辑](src/assets/3.png)
+
+![图片上传组件](assets/2.png)
+
+![图片裁剪](assets/1.png)
+
+![sql高亮编辑](assets/3.png)
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
